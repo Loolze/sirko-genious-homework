@@ -1,0 +1,152 @@
+/* local font */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/roboto-v30-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/roboto-v30-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-primary-dark);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+:root {
+  --color-primary-dark: #011c44;
+  --color-primary-light: #ffffff;
+  --color-brand-light: #2b7fff;
+  --color-secondary-copyriht: #747272;
+}
+
+/* Header section */
+
+.link {
+  color: var(--color-primary-dark);
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+  font-weight: 700;
+}
+
+/* Hero section */
+
+.hero-titel {
+  color: var(--color-brand-light);
+  font-size: 140px;
+  font-weight: 700;
+}
+
+.button {
+  padding: 16px 32px;
+  background: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 8px;
+  color: var(--color-primary-light);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button:hover {
+  color: var(--color-brand-light);
+  background: transparent;
+}
+
+.button:active {
+  color: var(--color-primary-dark);
+  background: transparent;
+}
+
+/*about-titel */
+
+.section-titel {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.accent {
+  color: var(--color-brand-light);
+}
+
+/* footer */
+
+footer {
+  background-color: #011c44;
+}
+
+.footer-link {
+  color: var(--color-primary-light);
+}
+
+.footer-link:hover {
+  color: var(--color-brand-light);
+  font-weight: 700;
+}
+
+.address-link {
+  font-size: 16px;
+  /* color: var(--color-primary-light); */
+  color: var(--color-primary-light);
+  text-decoration: none;
+}
+
+.address-link:hover {
+  color: var(--color-brand-light);
+  font-weight: 700;
+}
+
+.address-copyright {
+  font-size: 13px;
+  color: var(--color-secondary-copyriht);
+}
